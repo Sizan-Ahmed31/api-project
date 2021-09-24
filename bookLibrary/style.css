@@ -515,6 +515,7 @@ hr {
     border-bottom: 2px solid rgb(233, 232, 232);
     padding-left: 0;
     padding-bottom: 0;
+    z-index: 0;
 }
 
 .detail-review {
