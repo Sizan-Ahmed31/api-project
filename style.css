@@ -7,6 +7,23 @@
     box-sizing: border-box;
 }
 
+
+/* checkbtn start */
+
+.check-btn {
+    font-size: 30px;
+    float: right;
+    margin-top: 4px;
+    display: none;
+}
+
+#check {
+    display: none;
+}
+
+
+/* checkbtn end */
+
 nav {
     position: fixed;
     top: 0;
@@ -18,7 +35,7 @@ nav {
     z-index: 3;
 }
 
-nav #home-ul {
+nav .home-ul {
     display: inline-block;
     justify-content: center;
     align-items: center;
@@ -28,13 +45,13 @@ nav #home-ul {
     position: relative;
 }
 
-nav #home-ul .li {
+nav .home-ul .li {
     position: relative;
     list-style: none;
     display: inline;
 }
 
-nav #home-ul .li .menu-item {
+nav .home-ul .li .menu-item {
     text-decoration: none;
     position: relative;
     font-size: 15px;
@@ -46,7 +63,7 @@ nav #home-ul .li .menu-item {
     padding: 30px 33px 33px 0px;
 }
 
-nav #home-ul .li .menu-item:hover {
+nav .home-ul .li .menu-item:hover {
     color: #ce7852;
 }
 
@@ -59,11 +76,11 @@ nav.sticky {
     color: #8a8a8a;
 }
 
-.sticky #home-ul .li .menu-item {
+.sticky .home-ul .li .menu-item {
     color: white;
 }
 
-.sticky #home-ul .li .menu-item:hover {
+.sticky .home-ul .li .menu-item:hover {
     color: white;
 }
 
